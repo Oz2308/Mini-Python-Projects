@@ -11,3 +11,7 @@
 - This code was written so that all videos titles and their links are obtained from any YouTube channel and outputted to a spreadsheet.
 - The YouTube Data API v3 was utilised in order to query YouTube channels' all uploads playlist
 - Once the data is retrievd, the video titles & links are then outputted to an Excel spreadsheet using the OpenPyXL library to produce two coloumns of data.
+
+## DownloadPDF.py
+- When a URL is pasted into this code it will download all PDFS on the URL in 65 second intervals and store them locally on a new folder
+- This code mainly uses the BeautifulSoup & Requests libraries
